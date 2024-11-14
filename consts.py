@@ -34,11 +34,13 @@ most_common_english_letters_primary = set(' etaoin')
 most_common_english_letters_secondary = set('shrldcum')
 
 common_english_bigrams = [
-    'th', 'he', 'in', 'er', 'an', 're', 'nd', 'on', 'en', 'at', 'ou', 'ed', 'ha', 'to', 'or', 'it', 'is', 'hi', 'es', 'ng'
+    'th', 'he', 'in', 'er', 'an', 're', 'nd', 'on', 'en', 'at', 'ou', 'ed', 'ha', 'to', 'or', 'it', 'is', 'hi', 'es',
+    'ng'
 ]
 
 common_english_trigrams = [
-    'the', 'and', 'ing', 'her', 'hat', 'his', 'tha', 'ere', 'for', 'ent', 'ion', 'ter', 'was', 'you', 'ith', 'ver', 'all', 'wit', 'thi', 'tio'
+    'the', 'and', 'ing', 'her', 'hat', 'his', 'tha', 'ere', 'for', 'ent', 'ion', 'ter', 'was', 'you', 'ith', 'ver',
+    'all', 'wit', 'thi', 'tio'
 ]
 
 common_english_quadrigrams = [

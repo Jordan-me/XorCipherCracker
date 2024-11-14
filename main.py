@@ -41,4 +41,3 @@ if __name__ == '__main__':
 
     # QB: Sample Cipher Decryption with Known Key-Length only! make sure provide key-len&cipher on ciphers.txt file
     decrypt_and_save()
-
