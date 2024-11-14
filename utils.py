@@ -37,5 +37,6 @@ def get_most_prob_key(keys_candidates, data):
             most_prob_key = key
     return most_prob_key
 
-def get_histo_indecies(data_mat):
+
+def get_histo_indices(data_mat):
     return [get_histo(row) for row in data_mat]

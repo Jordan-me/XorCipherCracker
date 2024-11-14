@@ -23,12 +23,12 @@ def score_decrypted_text(deciphered_text):
         common_bigram_matches += count_occurrences(deciphered_text, bigram)
 
     # Count occurrences of common English trigrams
-    # for trigram in common_english_trigrams:
-    #     common_trigram_matches += count_occurrences(deciphered_text, trigram)
+    for trigram in common_english_trigrams:
+        common_trigram_matches += count_occurrences(deciphered_text, trigram)
 
     # Count occurrences of common English quadrigrams
-    # for quadrigram in common_english_quadrigrams:
-    #     common_quadrigram_matches += count_occurrences(deciphered_text, quadrigram)
+    for quadrigram in common_english_quadrigrams:
+        common_quadrigram_matches += count_occurrences(deciphered_text, quadrigram)
 
     # Count occurrences of common English letters
     for char in deciphered_text:

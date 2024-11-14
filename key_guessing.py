@@ -1,6 +1,6 @@
 from functools import reduce
 from utils import get_histo, get_xor_mat_ascii, find_xor_positions, get_most_prob_key, transpose_data_blocks, \
-    get_histo_indecies
+    get_histo_indices
 
 
 def guess_keys(histogram_indices, key_chars_candidates):
@@ -24,7 +24,7 @@ def find_key(data, key_len):
         last_row += [-1] * (key_len - len(last_row))
         data_blocks.append(last_row)
     transposed_data_blocks = transpose_data_blocks(data_blocks)
-    histo_indices = get_histo_indecies(transposed_data_blocks)
+    histo_indices = get_histo_indices(transposed_data_blocks)
     mat_xor_ascii = get_xor_mat_ascii()
     key_chars_candidates = []
 
