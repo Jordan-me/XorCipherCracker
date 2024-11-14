@@ -1,7 +1,7 @@
 from collections import Counter
 
-from encryption import encrypt_decrypt_cipher
-from score_english import score_decrypted_text
+from xor_encryption_decryption.encryption import encrypt_decrypt_cipher
+from analysis.score_english import score_decrypted_text
 
 
 def get_histo(data):

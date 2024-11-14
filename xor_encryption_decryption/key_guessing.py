@@ -1,5 +1,5 @@
 from functools import reduce
-from utils import get_histo, get_xor_mat_ascii, find_xor_positions, get_most_prob_key, transpose_data_blocks, \
+from utils.utils import get_xor_mat_ascii, find_xor_positions, get_most_prob_key, transpose_data_blocks, \
     get_histo_indices
 
 

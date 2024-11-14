@@ -1,5 +1,5 @@
-from encryption import encrypt_decrypt, encrypt_decrypt_cipher
-from key_guessing import find_key
+from xor_encryption_decryption.encryption import encrypt_decrypt, encrypt_decrypt_cipher
+from xor_encryption_decryption.key_guessing import find_key
 
 test_text_1 = "All happy families are alike; each unhappy family is unhappy in its own way. Everything was in " \
               "confusion in the house of the Oblonskys. The wife had discovered that the husband was unfaithful to " \

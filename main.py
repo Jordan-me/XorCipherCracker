@@ -1,9 +1,9 @@
-from encryption import encrypt_decrypt, cipher_to_txt, encrypt_decrypt_cipher
-from key_guessing import find_key
+from xor_encryption_decryption.encryption import encrypt_decrypt, cipher_to_txt, encrypt_decrypt_cipher
+from xor_encryption_decryption.key_guessing import find_key
 
 
 def decrypt_and_save():
-    with open('ciphers.txt', 'r') as file, open('decrypt_ciphers.txt', 'w') as result_file:
+    with open('resources/ciphers.txt', 'r') as file, open('resources/decrypt_ciphers.txt', 'w') as result_file:
         # Read all lines from the file
         cipher_lines = file.readlines()
 

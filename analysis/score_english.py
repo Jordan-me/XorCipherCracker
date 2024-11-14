@@ -1,4 +1,4 @@
-from consts import common_english_words, common_english_bigrams, common_english_trigrams, common_english_quadrigrams, \
+from utils.consts import common_english_words, common_english_bigrams, common_english_trigrams, common_english_quadrigrams, \
     most_common_english_letters_primary, most_common_english_letters_secondary
 
 
