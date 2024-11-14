@@ -70,3 +70,9 @@ The main script, `main.py`, is the entry point for the project. You can run it a
 ```bash
 python main.py
 ```
+
+## References
+* https://www3.nd.edu/~busiforc/handouts/cryptography/Letter%20Frequencies.html
+* https://preply.com/en/blog/300-most-common-english-words/
+* https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html
+* https://www.math.wustl.edu/~matkerr/4351/HPS.pdf
